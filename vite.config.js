@@ -5,6 +5,7 @@ import pluginPurgeCss from "@mojojoejo/vite-plugin-purgecss";
 
 export default defineConfig({
   root: resolve(__dirname, "src/"),
+  publicDir: resolve(__dirname, "public"),
   plugins: [pluginPurgeCss()],
   build: {
     outDir: resolve(__dirname, "dist"),
