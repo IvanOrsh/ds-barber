@@ -10,12 +10,9 @@
   line-height: $card-line-height;
 
   &__heading {
-    color: $card-heading-color-default;
-    font-family: $card-heading-font-family;
-    font-size: $card-heading-font-size;
-    font-weight: $card-heading-font-weight;
-    letter-spacing: $card-heading-letter-spacing;
-    line-height: $card-heading-line-height;
-    text-transform: $card-heading-text-transform;
+    @include heading(
+      $fs: $card-heading-font-size,
+      $color: $card-heading-color-default
+    );
   }
 }
