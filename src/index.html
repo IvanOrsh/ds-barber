@@ -7,11 +7,17 @@
     <title>Vite App</title>
     <link rel="stylesheet" href="/sass/main.scss" />
   </head>
-  <body style="background: lightblue">
-    <h1>This is my homepage</h1>
-    <p>
-      If you'd like to learn more about me, <a href="/about/">click here</a>
-    </p>
+  <body class="container">
+    <section class="section flow">
+      <h1 class="text-center uppercase">This is my homepage</h1>
+      <p>
+        If you'd like to learn more about me, <a href="/about/">click here</a>
+      </p>
+      <div class="flex-group">
+        <button class="button" data-type="primary">Primary</button>
+        <button class="button" data-type="accent">Accent</button>
+      </div>
+    </section>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
