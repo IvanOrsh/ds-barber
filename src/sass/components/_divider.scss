@@ -1,0 +1,18 @@
+@use "../abstracts" as *;
+
+.divider {
+  --parent: &;
+
+  & {
+    position: relative;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 30%;
+    width: 1px;
+    height: 40%;
+    background-color: $divider-color;
+  }
+}
