@@ -30,8 +30,6 @@ $hero-padding-block: clamp(15rem, 15vh, 20rem);
 
 $section-padding-block: clamp(5rem, 10vh, 6rem);
 
-$card-body-padding: $size-8; // 80px
-
 $container-min-margin-inline: $size-4; // 1rem;
 $container-max-width: 64rem; // 1024px
 $container-max-width-narrow: 40rem; // 640px
@@ -44,6 +42,7 @@ $button-font-size: $font-size-600;
 $button-font-weight: $font-weight-bold;
 $button-padding-default: $size-3 $size-9; // 12px 32px
 $button-border: 0;
+// $button-border-color-primary
 $button-border-radius: $size-2; // 8px
 $button-text-transform: none;
 
@@ -56,3 +55,18 @@ $button-primary-color: $color-neutral-100;
 $button-primary-background: $color-primary-700;
 $button-primary-color-hover: $color-neutral-100;
 $button-primary-background-hover: $color-primary-800;
+
+// cards
+$card-flow-spacing: $size-2;
+$card-body-padding: $size-8; // 80px
+$card-background-default: $color-primary-100;
+$card-color-default: $body-text-color;
+$card-font-family: $body-font-family;
+$card-line-height: 1.25;
+$card-heading-font-family: $font-family-accent;
+$card-heading-color-default: $card-color-default; // $color-accent-400;
+$card-heading-font-size: $font-size-600; // 1.3125rem | 1.125rem
+$card-heading-font-weight: $font-weight-bold;
+$card-heading-letter-spacing: $letter-spacing-loose;
+$card-heading-line-height: 1;
+$card-heading-text-transform: uppercase;
