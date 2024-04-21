@@ -24,13 +24,34 @@
     </header>
 
     <main>
-      <section class="section">
-        <div class="container flow" data-type="wide">
-          <h1 class="heading-1 | text-center">This is my homepage</h1>
-          <p>
-            If you'd like to learn more about me,
-            <a href="/about/">click here</a>
-          </p>
+      <section class="section" id="about">
+        <div class="container">
+          <div
+            class="flex-group"
+            style="--flex-row-gap: 4rem; align-items: center"
+          >
+            <div class="flow" style="flex: 1">
+              <h1 class="heading-1">The barber shop</h1>
+              <p>
+                Established over a decade ago, <b>The Barber Shop</b> is here to
+                serve you're hair needs, whatever they are. From a simple cut, a
+                beard trim or a hot towel shave, we're here to help you with.
+              </p>
+
+              <div class="flex-group">
+                <button class="button" data-type="accent">
+                  Book appointment
+                </button>
+                <button class="button" data-type="primary">View prices</button>
+              </div>
+            </div>
+
+            <img
+              class="box-shadow-1 border-radius-2"
+              src="assets/hair-cut.jpg"
+              alt="A very experience barber is working on his masterpiece - an incredibly complicated haircut, that is still a work in progress, but is already beautiful."
+            />
+          </div>
         </div>
       </section>
 
