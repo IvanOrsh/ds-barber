@@ -1,18 +1,25 @@
 @use "../abstracts" as *;
 
 .divider {
-  --parent: &;
+  position: relative;
+  display: inline-block;
+  padding: 0 10px;
 
-  & {
-    position: relative;
-  }
-
+  &::before,
   &::after {
     content: "";
     position: absolute;
-    top: 30%;
-    width: 1px;
-    height: 40%;
+    top: 50%;
+    width: 4px;
+    height: 20px;
     background-color: $divider-color;
+    transform: translateY(-50%);
+  }
+  &::before {
+    left: -10px;
+  }
+
+  &::after {
+    right: -10px;
   }
 }
