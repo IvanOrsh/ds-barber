@@ -7,9 +7,18 @@
   margin: $site-header-margin;
 
   &__layout {
-    display: flex;
-    gap: $size-4;
-    align-items: $site-header-alignment;
-    justify-content: $site-header-justification;
+    display: grid;
+    place-items: center;
+    gap: $grid-gap;
+  }
+
+  @include mq(medium) {
+    &__layout {
+      width: 100%;
+      display: flex;
+      gap: $size-4;
+      align-items: $site-header-alignment;
+      justify-content: $site-header-justification;
+    }
   }
 }
