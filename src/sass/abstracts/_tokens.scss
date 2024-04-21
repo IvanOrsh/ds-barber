@@ -36,3 +36,23 @@ $container-min-margin-inline: $size-4; // 1rem;
 $container-max-width: 64rem; // 1024px
 $container-max-width-narrow: 40rem; // 640px
 $container-max-width-wide: 75rem; // 1625px
+
+// buttons
+
+$button-font-family: $body-font-family; // or inherit (inheriting from body style)
+$button-font-size: $font-size-600;
+$button-font-weight: $font-weight-bold;
+$button-padding-default: $size-3 $size-9; // 12px 32px
+$button-border: 0;
+$button-border-radius: $size-2; // 8px
+$button-text-transform: none;
+
+$button-accent-color: $color-neutral-100;
+$button-accent-background: $color-accent-400;
+$button-accent-color-hover: $color-neutral-100;
+$button-accent-background-hover: $color-accent-500;
+
+$button-primary-color: $color-neutral-100;
+$button-primary-background: $color-primary-700;
+$button-primary-color-hover: $color-neutral-100;
+$button-primary-background-hover: $color-primary-800;
