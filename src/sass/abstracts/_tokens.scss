@@ -83,3 +83,11 @@ $card-border-radius: $border-radius-2;
 $card-box-shadow: $box-shadow-1;
 $card-heading-color-default: $card-color-default; // $color-accent-400;
 $card-heading-font-size: $font-size-600; // 1.3125rem | 1.125rem
+
+// site header
+$site-header-background-color: $color-primary-800;
+$site-header-color: $color-neutral-100;
+$site-header-padding: $size-8 0;
+$site-header-margin: 0;
+$site-header-alignment: start;
+$site-header-justification: space-between;
