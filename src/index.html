@@ -7,17 +7,77 @@
     <title>Vite App</title>
     <link rel="stylesheet" href="/sass/main.scss" />
   </head>
-  <body class="container">
-    <section class="section flow">
-      <h1 class="text-center uppercase">This is my homepage</h1>
-      <p>
-        If you'd like to learn more about me, <a href="/about/">click here</a>
-      </p>
-      <div class="flex-group">
-        <button class="button" data-type="primary">Primary</button>
-        <button class="button" data-type="accent">Accent</button>
-      </div>
-    </section>
+  <body>
+    <main>
+      <section class="section flow">
+        <div class="container" data-type="wide">
+          <h1 class="text-center uppercase">This is my homepage</h1>
+          <p>
+            If you'd like to learn more about me,
+            <a href="/about/">click here</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="section | bg-primary-200">
+        <div class="container" data-type="wide">
+          <div class="grid-auto-fit">
+            <div class="card | text-center">
+              <h3 class="card__heading">This is a card title</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum, obcaecati.
+              </p>
+            </div>
+            <div class="card | text-center">
+              <h3 class="card__heading">This is a card title</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum, obcaecati.
+              </p>
+            </div>
+            <div class="card | text-center">
+              <h3 class="card__heading">This is a card title</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum, obcaecati.
+              </p>
+            </div>
+            <div class="card | text-center">
+              <h3 class="card__heading">This is a card title</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum, obcaecati.
+              </p>
+            </div>
+            <div class="card | text-center">
+              <h3 class="card__heading">This is a card title</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum, obcaecati.
+              </p>
+            </div>
+            <div class="card | text-center">
+              <h3 class="card__heading">This is a card title</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum, obcaecati.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container" data-type="narrow">
+          <div class="flex-group">
+            <button class="button" data-type="primary">Primary</button>
+            <button class="button" data-type="accent">Accent</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
