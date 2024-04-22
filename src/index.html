@@ -35,7 +35,7 @@
                 beard trim or a hot towel shave, we're here to help you with.
               </p>
 
-              <div class="flex-group">
+              <div class="flex-group" data-spacing="center">
                 <button class="button" data-type="accent">
                   Book appointment
                 </button>
@@ -171,10 +171,66 @@
         </div>
       </section>
 
-      <section
-        class="appointment | section bg-primary-100"
-        id="appointment"
-      ></section>
+      <section class="appointment | section bg-primary-100" id="appointment">
+        <h2 class="heading-2 text-center margin-block-end-5">
+          Book an appointment
+        </h2>
+        <p class="fs-600 margin-block-end-12 text-center">
+          Please fill out the form below to book your appointment
+        </p>
+        <div class="container" data-type="narrow">
+          <form action="POST" class="contact-form">
+            <div class="form-group">
+              <label for="name">Your name</label>
+              <input id="name" placeholder="John Doe" type="text" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail address</label>
+              <input
+                id="email"
+                type="email"
+                placeholder="johnny1999@gmail.com"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="date">Date</label>
+              <input id="date" type="date" required />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone number</label>
+              <input id="phone" type="tel" required />
+            </div>
+
+            <div class="form-group">
+              <label for="service">Select service</label>
+              <select name="service" id="service" required>
+                <option value="">--Please choose an option--</option>
+                <option value="adult-cut">Adult cut</option>
+                <option value="beard-trim">Beard trim</option>
+                <option value="kid-cut">Kid cut</option>
+                <option value="how-towel-shave">How towel shave</option>
+                <option value="cut-n-wash">Cut & wash</option>
+                <option value="head-n-beard">Head & beard</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="barber"
+                >Barber's name <span class="fw-regular">(optional)</span></label
+              >
+              <input id="barber" type="text" />
+            </div>
+
+            <button class="button" type="submit" data-type="accent">
+              Book appointment
+            </button>
+          </form>
+        </div>
+      </section>
     </main>
 
     <script type="module" src="/main.js"></script>
