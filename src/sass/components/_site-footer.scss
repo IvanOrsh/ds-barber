@@ -1,0 +1,22 @@
+@use "../abstracts" as *;
+
+.site-footer {
+  color: $site-footer-color;
+  background-color: $site-footer-background-color;
+  padding: $site-footer-padding;
+  margin: $site-footer-margin;
+
+  a {
+    text-decoration: none;
+
+    &:is(:hover, :focus) {
+      color: $color-primary-300;
+    }
+  }
+
+  &__layout {
+    display: grid;
+    place-items: center;
+    gap: $grid-gap;
+  }
+}
