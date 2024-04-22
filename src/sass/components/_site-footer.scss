@@ -1,22 +1,17 @@
-@use "../abstracts" as *;
+@use "../abstracts/" as *;
 
 .site-footer {
-  color: $site-footer-color;
-  background-color: $site-footer-background-color;
-  padding: $site-footer-padding;
-  margin: $site-footer-margin;
+  background-color: $footer-background-color;
+  color: $footer-text-color;
 
   a {
+    color: $footer-link-color;
     text-decoration: none;
+    font-family: $footer-link-font-family;
+    letter-spacing: $letter-spacing-loose;
 
     &:is(:hover, :focus) {
-      color: $color-primary-300;
+      color: $footer-link-color-hover;
     }
-  }
-
-  &__layout {
-    display: grid;
-    place-items: center;
-    gap: $grid-gap;
   }
 }
