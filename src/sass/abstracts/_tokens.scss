@@ -92,6 +92,14 @@ $site-header-margin: 0;
 $site-header-alignment: start;
 $site-header-justification: space-between;
 
+// site footer
+$site-footer-background-color: $color-primary-800;
+$site-footer-color: $color-neutral-100;
+$site-footer-padding: $size-8 0;
+$site-footer-margin: 0;
+$site-footer-alignment: center;
+$site-footer-justification: center;
+
 // navigation
 $navigation-spacing: $size-9; // gap
 $navigation-color: $site-header-color;
