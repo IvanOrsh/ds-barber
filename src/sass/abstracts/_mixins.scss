@@ -23,7 +23,7 @@
   }
 }
 
-@mixin heading($fs, $color: $heading-color-color) {
+@mixin heading($fs, $color: $heading-text-color) {
   font-size: $fs;
   color: $color;
 
